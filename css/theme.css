@@ -142,11 +142,15 @@ body,body.ui-overlay-a{
 
 
 
-@media (min-width: 100px) and (max-width: 399px) {
 .theme_bg
 {
-	background-image:url(../images/app608port.png) ;
+	background-image:none;
 	background-repeat:no-repeat;
 	background-size:cover;	
+	background: radial-gradient(left top , circle cover , rgb(177, 21, 21) 1% , rgb(51, 28, 28) 80%);
+background: -o-radial-gradient(left top , circle cover , rgb(177, 21, 21) 1% , rgb(51, 28, 28) 80%);
+background: -ms-radial-gradient(left top , circle cover , rgb(177, 21, 21) 1% , rgb(51, 28, 28) 80%);
+background: -moz-radial-gradient(left top , circle cover , rgb(177, 21, 21) 1% , rgb(51, 28, 28) 80%);
+background: -webkit-radial-gradient(left top , circle cover , rgb(177, 21, 21) 1% , rgb(51, 28, 28) 80%);
 }
-}
+
